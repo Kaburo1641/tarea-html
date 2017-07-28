@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #1a4182 url("./fondo2.jpeg") center top repeat-y;
+	background-size: 100%;
+}
+
+.tabla {
+    background: rgb(180, 180, 180); /* Fall-back for browsers that don't support rgba */
+    background: rgba(180, 180, 180, .90);
+	margin: 30px auto 50px auto;
+	width: 66em;
+	height: 50em;
+}
+
+.header {
+	height: 5%;
+}
+
+.boton-claro {
+	background-color: #999;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.boton-oscuro {
+	background-color: #444;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.boton-claro:hover, .boton-oscuro:hover {
+	background: #eee;
+}
+.boton-claro:focus, .boton-oscuro:focus {
+	background: #ccc;
+	border: 2px dotted black;
+}
+.boton-claro:active, .boton-oscuro:active {
+	background: #666;
+	border: none;
+}
+#ventana {
+	height: 100%;
+	width: 99.9%;
+	border-style: inline;
+	border-color: black gray gray black;
+	border-width: 5px;
+}
